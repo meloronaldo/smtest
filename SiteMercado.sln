@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{17F08884-FF91-4E73-832C-E60412CEECA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{A7138760-59DA-4E11-B7B2-C345EE2703C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Service", "4 - Service", "{C3D12BD2-06C7-42C0-8491-6DD91593A4A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{084514EF-FE2E-4F19-9A49-1B6890316CAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{FDA61C5F-6D5C-4E6E-8E2C-74266A51336B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiteMercado.Domain", "SiteMercado.Domain\SiteMercado.Domain.csproj", "{E5FD9E5A-B8DA-42AD-88FA-236FB1A55DB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiteMercado.Infra", "SiteMercado.Infra\SiteMercado.Infra.csproj", "{73C839A6-C696-4BDB-A976-FA5F62D376FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiteMercado.Service", "SiteMercado.Service\SiteMercado.Service.csproj", "{BEF4014A-2D1C-484D-A632-20D722EBB064}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiteMercado.Api", "SiteMercado.Api\SiteMercado.Api.csproj", "{6353CE76-9E3E-4602-B0D6-E1E5018E3F18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - User Interface", "0 - User Interface", "{1476C67D-D4DD-44AC-BD1F-BDD3DD9C7B37}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SiteMercado.App", "SiteMercado.App\", "{6C26676C-FCB3-488D-AB91-BCA5F4A269EF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49283"
+		Debug.AspNetCompiler.PhysicalPath = "SiteMercado.App\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49283\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49283"
+		Release.AspNetCompiler.PhysicalPath = "SiteMercado.App\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49283\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49283"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5FD9E5A-B8DA-42AD-88FA-236FB1A55DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FD9E5A-B8DA-42AD-88FA-236FB1A55DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FD9E5A-B8DA-42AD-88FA-236FB1A55DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FD9E5A-B8DA-42AD-88FA-236FB1A55DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C839A6-C696-4BDB-A976-FA5F62D376FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C839A6-C696-4BDB-A976-FA5F62D376FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C839A6-C696-4BDB-A976-FA5F62D376FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C839A6-C696-4BDB-A976-FA5F62D376FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF4014A-2D1C-484D-A632-20D722EBB064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF4014A-2D1C-484D-A632-20D722EBB064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF4014A-2D1C-484D-A632-20D722EBB064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF4014A-2D1C-484D-A632-20D722EBB064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6353CE76-9E3E-4602-B0D6-E1E5018E3F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6353CE76-9E3E-4602-B0D6-E1E5018E3F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6353CE76-9E3E-4602-B0D6-E1E5018E3F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6353CE76-9E3E-4602-B0D6-E1E5018E3F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C26676C-FCB3-488D-AB91-BCA5F4A269EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C26676C-FCB3-488D-AB91-BCA5F4A269EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C26676C-FCB3-488D-AB91-BCA5F4A269EF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C26676C-FCB3-488D-AB91-BCA5F4A269EF}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5FD9E5A-B8DA-42AD-88FA-236FB1A55DB2} = {A7138760-59DA-4E11-B7B2-C345EE2703C9}
+		{73C839A6-C696-4BDB-A976-FA5F62D376FA} = {084514EF-FE2E-4F19-9A49-1B6890316CAD}
+		{BEF4014A-2D1C-484D-A632-20D722EBB064} = {C3D12BD2-06C7-42C0-8491-6DD91593A4A4}
+		{6353CE76-9E3E-4602-B0D6-E1E5018E3F18} = {17F08884-FF91-4E73-832C-E60412CEECA8}
+		{6C26676C-FCB3-488D-AB91-BCA5F4A269EF} = {1476C67D-D4DD-44AC-BD1F-BDD3DD9C7B37}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9109572C-B495-47FC-9848-B3113E5046E9}
+	EndGlobalSection
+EndGlobal

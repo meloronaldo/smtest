@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Service\\SiteMercado.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Domain\\SiteMercado.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Domain\\SiteMercado.Domain.csproj",
+        "projectName": "SiteMercado.Domain",
+        "projectPath": "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Domain\\SiteMercado.Domain.csproj",
+        "packagesPath": "C:\\Users\\ronaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ronaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Infra\\SiteMercado.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Infra\\SiteMercado.Infra.csproj",
+        "projectName": "SiteMercado.Infra",
+        "projectPath": "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Infra\\SiteMercado.Infra.csproj",
+        "packagesPath": "C:\\Users\\ronaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ronaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Domain\\SiteMercado.Domain.csproj": {
+                "projectPath": "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Domain\\SiteMercado.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Service\\SiteMercado.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Service\\SiteMercado.Service.csproj",
+        "projectName": "SiteMercado.Service",
+        "projectPath": "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Service\\SiteMercado.Service.csproj",
+        "packagesPath": "C:\\Users\\ronaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ronaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Infra\\SiteMercado.Infra.csproj": {
+                "projectPath": "C:\\teste\\SiteMercado\\SiteMercado\\SiteMercado.Infra\\SiteMercado.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
